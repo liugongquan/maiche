@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="keywords" content="杭州听浅电子商务有限公司" />
+	<meta name="discrption" content="杭州听浅电子商务有限公司是一家技术开发、技术咨询、技术服务、成果转让公司。主要做技术开发、技术咨询、技术服务、成果转让：电子商务技术、网络技术、电子产品；服务：产品包装设计、承办会展、市场营销策划、服装设计、服装品牌策划；批发、零售（含网上销售：服装服饰、箱包鞋帽、皮革制品、日用百货、纺织品、工艺美术品、化妆品。" />
+	<link rel="stylesheet" href="./css/maiche.css" />
+	<title>摆车网-我要买车</title>
+</head>
+<body>
+	<div class="header">
+		<div class="wrapper">
+			<div class="h-lt">
+				<h1 class="logo">
+					<a href="#">
+						<img src="images/logo.png">
+					</a>
+				</h1>
+				<div class="city-fixed">
+					<span class="j-city">北京</span>
+					<span class="city-show"></span>
+				</div>
+				<div class="main-nav">
+					<a href="index.html">首页</a>
+					<a href="#"class="mai">我要买车</a>
+					<a href="#">我要卖车</a>
+					<a href="#">商家服务</a>
+					<a href="#">关于我们</a>
+				</div>
+			</div>
+			<div class="search">
+				<form class="search-f">
+					<input name="keyword" placeholder="搜索" class="search-t" onfocus="search_f(this)" onblur="search_b(this)">
+					<button class="search-b" id="search_btn"></button>
+				</form>
+			</div>
+			<div class="h-rt">
+				<div class="phone-number">
+					<img src="images/phone-num.png">
+				</div>
+				<div class="user">
+					<p class="login-text">登录</p>
+					<p class="login-text">注册</p>
+				</div>
+			</div>
+		</div>
+		<!-- 头部 -->
+	</div>
+	<div class="content">
+		<div class="content_left">
+			<div class="content_top">
+				<div class="nav-top">
+					<h1>共找到28725辆车</h1>
+				</div>
+				<div class="nav-list">
+					<div class="list-brand">
+						<h1 class="list-h1">
+							<span>品牌</span>
+							<a class="more" href="#">更多>></a>
+						</h1>
+						<ul class="brand-findall">
+							<li>
+								<a href="#">大众</a>
+							</li>
+							<li>
+								<a href="#">宝马</a>
+							</li>
+							<li>
+								<a href="#">奥迪</a>
+							</li>
+							<li>
+								<a href="#">奔驰</a>
+							</li>
+							<li>
+								<a href="#">本田</a>
+							</li>
+							<li>
+								<a href="#">丰田</a>
+							</li>
+							<li>
+								<a href="#">日产</a>
+							</li>
+							<li>
+								<a href="#">马自达</a>
+							</li>
+							<li>
+								<a href="#">现代</a>
+							</li>
+							<li>
+								<a href="#">铃木</a>
+							</li>
+							<li>
+								<a href="#">标致</a>
+							</li>
+							<li>
+								<a href="#">雪铁龙</a>
+							</li>
+							<li>
+								<a href="#">别克</a>
+							</li>
+							<li>
+								<a href="#">福特</a>
+							</li>
+							<li>
+								<a href="#">吉普</a>
+							</li>
+							<li>
+								<a href="#">克莱斯勒</a>
+							</li>
+							<li>
+								<a href="#">三菱</a>
+							</li>
+							<li>
+								<a href="#">奔腾</a>
+							</li>
+							<li>
+								<a href="#">雪佛兰</a>
+							</li>
+							<li>
+								<a href="#">沃尔沃</a>
+							</li>
+						</ul>
+					</div>
+					<div class="list-type" id="list_prices">
+						<h1>
+							<span>价格(万元)</span>
+							<a class="price" href="#">自定义价格>></a>
+						</h1>
+						<div class="price-fixed">
+							<div class="unlimited">∞</div>
+							<a>
+								<i></i>
+								<span>0</span>
+							</a>
+							<a>
+								<i></i>
+								<span>5</span>
+							</a>
+							<a>
+								<i></i>
+								<span>8</span>
+							</a>
+							<a>
+								<i></i>
+								<span>10</span>
+							</a>
+							<a>
+								<i></i>
+								<span>15</span>
+							</a>
+							<a>
+								<i></i>
+								<span>20</span>
+							</a>
+							<a>
+								<i></i>
+								<span>30</span>
+							</a>
+							<a>
+								<i></i>
+								<span>50</span>
+							</a>
+						</div>
+					</div>
+					<div class="list-type" id="list_models">
+						<h1>车型</h1>
+						<ul>
+							<li>
+								<a class="" href="#">
+									<div class="l1"></div>
+									<span>SUV</span>
+								</a>
+							</li>
+							<li>
+								<a class="" href="#">
+									<div class="l2"></div>
+									<span>MPV</span>
+								</a>
+							</li>
+							<li>
+								<a class="" href="#">
+									<div class="l3"></div>
+									<span>微小型车</span>
+								</a>
+							</li>
+							<li>
+								<a class="" href="#">
+									<div class="l4"></div>
+									<span>紧凑型车</span>
+								</a>
+							</li>
+							<li>
+								<a class="" href="#">
+									<div class="l5"></div>
+									<span>中型车</span>
+								</a>
+							</li>
+							<li>
+								<a class="" href="#">
+									<div class="l6"></div>
+									<span>中大型车</span>
+								</a>
+							</li>
+							<li>
+								<a class="" href="#">
+									<div class="l7"></div>
+									<span>跑车</span>
+								</a>
+							</li>
+							<li>
+								<a class="" href="#">
+									<div class="l8"></div>
+									<span>两厢车</span>
+								</a>
+							</li>
+							<li>
+								<a class="" href="#">
+									<div class="l9"></div>
+									<span>三厢车</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="list-type" id="list_years">
+						<h1>上牌时间</h1>
+						<div class="start">
+							<div class="con">
+								<div class="txt">起始时间</div>
+								<div class="icon">
+									<img src="./images/city-chose.png">
+								</div>
+							</div>
+						</div>
+						<span class="zhi">至</span>
+						<div class="start">
+							<div class="con">
+								<div class="txt">2014</div>
+								<div class="icon">
+									<img src="./images/city-chose.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="list-type" id="list_mileages">
+						<h1>里程</h1>
+						<div class="start">
+							<div class="con">
+								<div class="txt">请选择里程数</div>
+								<div class="icon">
+									<img src="./images/city-chose.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="list-type" id="list_transmissions">
+						<h1>变速箱</h1>
+						<div class="start">
+							<div class="con">
+								<div class="txt">请选择变速箱</div>
+								<div class="icon">
+									<img src="./images/city-chose.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="list-type" id="list_engines">
+						<h1>排量</h1>
+						<div class="start">
+							<div class="con">
+								<div class="txt">请选择排量</div>
+								<div class="icon">
+									<img src="./images/city-chose.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="list-type" id="list_standard">
+						<h1>排放标准</h1>
+						<div class="start">
+							<div class="con">
+								<div class="txt">请选择排放标准</div>
+								<div class="icon">
+									<img src="./images/city-chose.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="list-type" id="list_country">
+						<h1>国别</h1>
+						<div class="start">
+							<div class="con">
+								<div class="txt">请选择国别</div>
+								<div class="icon">
+									<img src="./images/city-chose.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content_right">
+			<div class="car_nav">
+				<div class="nav_top">
+					<div class="top1">
+						<a href="#">
+							<span class="sp1">出售中</span>
+							<span class="sp2">(12004)</span>
+						</a>
+					</div>
+					<div class="top2">
+							<a href="#">
+							<span>已售(18042)</span>
+						</a>
+					</div>
+					<div class="top4">
+						<a class="a1" href="#">
+						</a>
+						<a class="a2" href="#"></a>
+					</div>
+					<div class="top3">
+						<a class="a11" href="#">排序:</a>
+						<a class="a22" href="#">默认</a>
+						<a class="a33" href="#">上牌时间</a>
+						<span class="s1"></span>
+						<a class="a44" href="#">价格</a>
+						<span class="s2"></span>
+						<a class="a55" href="#">里程</a>
+						<span class="s2"></span>
+					</div>
+				</div>
+				<div class="nav_bot">
+					<div class="new">
+						<input class="check" type="checkbox">
+						<span>准新车</span>
+					</div>
+				</div>
+			</div>
+			<div class="car">
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car1.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">大众 2010款 捷达 1.6L 伙伴</a>
+					<div class="carprice">
+						<span>￥ 4.65 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2012/06 上牌</span> |
+						<span>5.60万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car2.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">大众 2010款 捷达 1.6L 伙伴</a>
+					<div class="carprice">
+						<span>￥ 4.65 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2012/12 上牌</span> |
+						<span>8.80万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car3.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">大众 2010款 捷达 1.6L 伙伴</a>
+					<div class="carprice">
+						<span>￥ 4.65 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2010/11 上牌</span> |
+						<span>8.00万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car4.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">奔驰 2011款 威霆 2.5L 商务版</a>
+					<div class="carprice">
+						<span>￥ 19.2 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2013/01 上牌</span> |
+						<span>5.10万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>实名认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car5.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">别克 2011款 凯越 1.6LE-AT</a>
+					<div class="carprice">
+						<span>￥ 4.98 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2013/10 上牌</span> |
+						<span>5.70万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car4.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">大众 2013款 甲壳虫 1.4TSI 豪华型</a>
+					<div class="carprice">
+						<span>￥ 17.5 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2012/07 上牌</span> |
+						<span>5.60万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car5.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">现代 2013款 全新胜达 改款 2.0T 自动四驱顶级型</a>
+					<div class="carprice">
+						<span>￥ 19.2 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2013/10 上牌</span> |
+						<span>5.70万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car6.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">2012款 标致408 2.0L 罗兰・加洛斯版</a>
+					<div class="carprice">
+						<span>￥ 6.8 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2012/07 上牌</span> |
+						<span>5.60万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car7.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">斯柯达 2014款 晶锐 1.4L 自动晶致版</a>
+					<div class="carprice">
+						<span>￥ 5.5 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2012/06 上牌</span> |
+						<span>5.60万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car8.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">斯柯达 2014款 晶锐 1.4L 自动晶致版</a>
+					<div class="carprice">
+						<span>￥ 5.5 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2013/11 上牌</span> |
+						<span>3.80万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car9.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">别克 2006款 凯越 1.6 自动舒适型</a>
+					<div class="carprice">
+						<span>￥ 2.78 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2007/12 上牌</span> |
+						<span>11.00万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car10.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">丰田 2011款 卡罗拉 1.6L 自动GL</a>
+					<div class="carprice">
+						<span>￥ 7 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2010/06 上牌</span> |
+						<span>5.20万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car11.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">2016款 克莱斯勒300C(进口) 3.0L 超越版</a>
+					<div class="carprice">
+						<span>￥ 28.8 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2016/07 上牌</span> |
+						<span>0.60万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car12.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">2015款 奥迪Q5 40 TFSI 豪华型</a>
+					<div class="carprice">
+						<span>￥ 38.6 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2015/12 上牌</span> |
+						<span>2.00万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car13.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">2013款 奥迪Q3 35 TFSI 舒适型</a>
+					<div class="carprice">
+						<span>￥ 22.8 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2013/12 上牌</span> |
+						<span>5.30万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car14.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">2016款 奔驰C级 C 200 运动版</a>
+					<div class="carprice">
+						<span>￥ 30.3 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2016/08 上牌</span> |
+						<span>0.30万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car15.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">2016款 奔驰GLA级 GLA 220 4MATIC 豪华型</a>
+					<div class="carprice">
+						<span>￥ 33.3 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2012/06 上牌</span> |
+						<span>5.60万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+				<div class="carbox">
+					<a class="img" href="#">
+						<img src="./images/car16.jpg" style="width:240px;height:160px;">
+					</a>
+					<a class="type" href="#">2015款 大众up! 1.0L high up!</a>
+					<div class="carprice">
+						<span>￥ 9.6 万</span>
+					</div>
+					<div class="carinfo">
+						<span>2012/06 上牌</span> |
+						<span>5.60万公里</span> |
+						<span>北京</span>
+					</div>
+					<div class="approve1">
+						<span>商家认证</span>
+					</div>
+					<div class="approve2"></div>
+				</div>
+			</div>
+			<div class="jump">
+				<a href="#"><</a>
+				<a href="#" class="color">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#">6</a>
+				<a href="#">...</a>
+				<a href="#">500</a>
+				<a href="#">></a>
+			</div>
+		</div>
+	</div>
+		<!-- 主体 -->
+	<div class="footer">
+		<div class="foot">
+			<div class="foot1">
+				<div>
+					<span class="tit">导购大全</span>
+					<a href="chengshi.html">城市大全</a>
+					<a href="pingpai.html">品牌大全</a>
+					<a href="chexi.html">车系大全</a>
+				</div>
+				<div>
+					<span class="tit">购车指南</span>
+					<a href="tiaoxuan.html">如何挑选二手车</a>
+					<a href="panduan.html">如何判断事故火烧水浸车</a>
+					<a href="zhibiao.html">二手车指标说明</a>
+				</div>
+				<div>
+					<span class="tit">关于我们</span>
+					<a href="#">大搜车理念</a>
+					<a href="#">车牛</a>
+					<a href="#">大风车</a>
+					<a href="#">大搜车手机版</a>
+				</div>
+				<div>
+					<span class="tit">联系我们</span>
+					<a href="#">城市大全</a>
+					<a href="#">品牌大全</a>
+					<a href="#">车系大全</a>
+				</div>
+				<div>
+					<img src="./images/erwei.png">
+					<p>扫一扫，关注微信公众号</p>
+				</div>
+			</div>
+			<div class="foot2">                   
+				<span>热门城市:</span>
+				<a href="#">厦门</a>
+				<a href="#">北京</a>
+				<a href="#">南宁</a>
+				<a href="#">杭州</a>
+				<a href="#">郑州</a>
+				<a href="#">漳州</a>
+				<a href="#">长沙</a>
+				<a href="#">合肥</a>
+				<a href="#">西安</a>
+				<a href="#">上海</a>
+				<a href="#">宁波</a>
+				<a href="#">温州</a>
+				<a href="#">太原</a>
+				<a href="#">青岛</a>
+				<a href="#">南京</a>
+				<a href="#">武汉</a>
+				<a href="#">沈阳</a>
+				<a href="#">成都</a>
+				<a href="#">石家庄</a>
+				<a href="#">重庆</a>
+				<a href="#">台州</a>
+				<a href="#">大连</a>
+				<a href="#">福州</a>
+				<a href="#">佛山</a>
+				<a href="#">临沂</a>
+				<a href="#">济南</a>
+				<a href="#">苏州</a>
+				<a href="#">贵阳</a>
+				<a href="#">泉州</a>
+				<a href="#">南昌</a>
+				<a href="#">天津</a>
+				<a href="#">东莞</a>
+				<a href="#">深圳</a>
+				<a href="#">昆明</a>
+				<a href="#">广州</a>
+				<a href="#">包头</a>
+				<a href="#">鞍山</a>
+				<a href="#">淮南</a>
+				<a href="#">长春</a>
+				<a href="#">金华</a>
+				<a href="#">乌鲁木齐</a>
+				<a href="#">无锡</a>
+				<a href="#">柳州</a>
+				<a href="#">潍坊</a>
+				<a href="#">荆州</a>
+				<a href="#">保定</a>
+				<a href="#">枣庄</a>
+				<a href="#">洛阳</a>
+				<a href="#">常州</a>
+				<a href="#">沧州</a>
+				<a href="#">更多城市</a>
+			</div>
+			<div class="foot3">
+				<a href="#">车险信息网</a>
+				<a href="#">中山二手车</a>
+				<a href="#">车易拍</a>
+				<a href="#">海南二手车</a>
+				<a href="#">汽车点评网</a>
+				<a href="#">杭州二手车</a>
+				<a href="#">2014汽车报价</a>
+				<a href="#">北京汽车网</a>
+				<a href="#">中国二手车网</a>
+				<a href="#">汽车配件</a>
+				<a href="#">二手车评估</a>
+				<a href="#">湖北专用车</a>
+				<a href="#">中国汽车网</a>
+				<a href="#">大浙汽车</a>
+				<a href="#">搜狐二手车</a>
+				<a href="#">车300估价</a>
+				<a href="#">58二手车</a>
+				<a href="#">二手车评估</a>
+			</div>
+			<p>Copyright © 2016 SouChe All Rights Reserved 杭州大搜车汽车服务有限公司 版权所有 京 ICP备 13012136号 京公网安备 11010802013095号</p>
+		</div>
+	</div>
+	<!-- 尾部 -->
+	<div class="fixedNav">
+		<div>我的车库</div>
+		<a class="anchor">
+			<i class="icon favor"></i>
+			<span>关注的车</span>
+		</a>
+		<a class="anchor">
+			<i class="icon consult"></i>
+			<span>咨询的车</span>
+		</a>
+		<a class="anchor">
+			<i class="icon sell"></i>
+			<span>估价卖车</span>
+		</a>
+		<a class="anchor">
+			<i class="icon feedback"></i>
+			<span>反馈信息</span>
+		</a>
+	</div>
+</body>
+<script src="./js/maiche.js"></script>
+</html>
