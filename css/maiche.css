@@ -805,4 +805,18 @@ ul.brand-findall{
     width: 24px;
     height: 12px;
     overflow: hidden;
-} */
+} 
+
+/* 快速回到顶部 */
+.top{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: orange;
+}

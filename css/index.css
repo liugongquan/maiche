@@ -368,6 +368,7 @@ ul.brand-findall{
 
 /*底部菜单栏*/
 .footer{
+    position: relative;
     margin-top: 25px;
     background-color: #1f1f1f;
     width: 100%;
@@ -526,6 +527,20 @@ ul.brand-findall{
     margin-left: 16px;
     display: block;
     width: 24px;
-    height: 12px;
+    height: 12px;.
     overflow: hidden;
+}
+
+/* 快速回到顶部 */
+.top{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: orange;
 }

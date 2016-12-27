@@ -54,7 +54,7 @@ function createBanner(option){
 			a = a >= dataLen -1 ? 0 : a +1;
 			images[_a].className = "";
 			images[a].className = "current";
-		},1000);
+		},2000);
 	}
 	function createButton(className){
 		var i = document.createElement("i");//创建一个元素,i标签
@@ -189,3 +189,8 @@ var main = document.getElementById("life");//获取divmain
 	main.style.paddingBottom = "30px";
 	main.style.paddingTop = "80px";
 })();
+
+
+document.getElementById("top").onclick = function(){
+	scrollTo(0, 0);
+};
