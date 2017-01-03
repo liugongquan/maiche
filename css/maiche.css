@@ -150,7 +150,7 @@ img{
 }
 /*主体内容*/
 .content{
-	height: 2240px;
+	display: table;
     width: 1280px;
     margin: 0 auto;
     margin-top: 20px;
@@ -160,6 +160,7 @@ img{
 
 
 /*主体内容左边*/
+
 .content_left{
     float: left;
     width: 240px;
@@ -538,77 +539,79 @@ ul.brand-findall{
 }
 
 /* 右边内容 */
-.car{
-    width: 1040px;
-    height: 2040px;
+.content .content_right .cars{
+    display: table;
 }
-.car .carbox{
-    width: 238px;
-    height: 318px;
-    border: 1px solid #E6E6E6;
-    float: left;
-    margin-left: 22px;
-    position: relative;
-    margin-bottom: 20px;
+.content .content_right .cars .car{
+    position:relative;
+    float:left;
+    margin-top:20px;
+    margin-right:20px;
+    width:240px;
+    height:320px;
+    background-repeat:no-repeat;
+    background-size:100% 160px;
 }
-.carbox .img{
-    display: block;
-    width: 240px;
-    height: 160px;
-    margin: -1px 0 0 -1px;
-    overflow: hidden;
+.content .content_right .cars .car .detail{
+    position:absolute;
+    bottom:0;
+    padding:0 14px;
+    width:210px;
+    height:159px;
+    border-width:0 1px 1px;
+    border-style:solid;
+    border-color:rgb(230, 230, 230);
 }
-.carbox .type{
-    font-size: 14px;
-    color: #333;
-    display: block;
-    height: 40px;
-    margin: 10px 15px 0 15px;
-    overflow: hidden;
+.content .content_right .cars .car .detail a{
+    position:absolute;
+    top:-160px;
+    left:0;
+    padding:170px 16px;
+    height:44px;
+    font-size:14px;
+    line-height:22px;
+    word-break:break-all;
+    color:rgb(51, 51, 51);
 }
-.carbox .carprice{
-    margin: 5px 15px;
+.content .content_right .cars .car .detail .price{
+    margin-top:60px;
+    font-size:16px;
+    font-weight:bold;
+    color:rgb(255, 88, 26);
 }
-.carprice>span{
-    color: #ff571a;
-    font-weight: bold;
-    margin-right: 5px;
+.content .content_right .cars .car .detail .content{
+    margin-top:9px;
+    font-size:12px;
+    color:rgb(153, 153, 153);
 }
-.carbox .carinfo{
-    margin: 0 15px;
-    color: #999;
-    font-size: 12px;
-    margin-bottom: 8px;
-    height: 32px;
+.content .content_right .cars .car .detail .mark{
+    position:absolute;
+    bottom:0;
+    width:210px;
+    height:37px;
+    border-top:1px solid rgb(230, 230, 230);
 }
-.carinfo>span{
-    color: #999;
-    font-size: 12px;
+.content .content_right .cars .car .detail .mark>span{
+    padding:0 3px;
+    background-color:rgb(96, 178, 94);
+    font-size:12px;
+    line-height:37px;
+    color:white;
 }
-.carbox .approve1{
-    float: left;
-    width: 60px;
-    margin-left: 14px;
-    padding-top: 10px;
-    font-size: 12px;
-    border-top: 1px solid #E6E6E6;
-}
-.approve1>span{
-    width: 56px;
-    height: 16px;
-    background-color: #5FB15D;
-    color: #ffffff;
-    font-size: 12px;
-    text-align: center;
-}
-.carbox .approve2{
-    float: right;
-    width: 150px;
-    height: 30px;
-    margin-right: 14px;
-    padding-top: 10px;
-    font-size: 12px;
-    border-top: 1px solid #E6E6E6;
+.content .content_right .cars .car .sold{
+    position:absolute;
+    top:40px;
+    left:50%;
+    margin-left:-39px;
+    width:78px;
+    height:78px;
+    background-color:rgb(230, 230, 230);
+    text-align:center;
+    font-size:24px;
+    line-height:78px;
+    color:rgb(162, 162, 162);
+    opacity:.8;
+    border-radius:50%;
 }
 
 /* 右边内容跳转 */
@@ -809,7 +812,6 @@ ul.brand-findall{
 
 /* 快速回到顶部 */
 .top{
-    position: absolute;
     top: -40px;
     left: 0;
     display: block;
